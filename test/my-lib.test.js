@@ -7,6 +7,6 @@ test('add 1, 2 -> 3', () => {
   expect(myLib.add(1, 2)).toBe(3)
 });
 
-// test('divide 1, 2 -> -1', () => {
-//   expect(myLib.divide(1, 2)).toBe(-1)
-// });
+test('divide 1, 2 -> -1', () => {
+  expect(myLib.divide(1, 2)).toBe(-1)
+});
