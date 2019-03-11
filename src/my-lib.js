@@ -16,6 +16,12 @@ module.exports = {
       return 0
     }
     return x / y
+  },
+  hello: function() {
+    return "hello"
+  },
+  world: function() {
+    return "world"
   }
 }
 
