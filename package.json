@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest && codecov",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll --coverage",
     "build": "webpack"
   },
   "author": "",
